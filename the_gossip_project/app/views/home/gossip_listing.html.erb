@@ -1,13 +1,20 @@
 <div class="gossip_listing">
 <h1>Welcome Visitor!</h1>
-<p>Here are all gossips:</p>
+<h3>Here are all gossips:</h3>
 
 <% @gossips.each do |gossip| %>
 
-	N° <%= gossip.id %> <%= gossip.author %>:  <%= link_to gossip.content, gossips_path(gossip.id) %>
-	 <br />
-   <br />
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-header">Gossip n°<%= gossip.id %></h5>
+      <p class="card-text"><%= gossip.content %> </p>
+      <p class="card-text"><%= gossip.author %> </p>
+      <p class="card-link"> <%= link_to "Go to gossip page", gossips_path(gossip.id) %></p>
+      </div>
+  </div>
 
 <% end %>
 
 </div>
+
+

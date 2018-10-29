@@ -19,7 +19,7 @@
 {
 	margin: auto;
 	text-align: center;
-	width: 20%;
+	width: 50%;
 	border: 1px solid Black;
 }
 
@@ -27,7 +27,7 @@
 {
 	margin: auto;
 	text-align: center;
-	width: 20%;
+	width: 50%;
 	border: 1px solid Black;
 }
 
@@ -35,6 +35,5 @@
 {
 	margin: auto;
 	text-align: center;
-	width: 40%;
-	border: 1px solid Black;
+	width: 30%;
 }
