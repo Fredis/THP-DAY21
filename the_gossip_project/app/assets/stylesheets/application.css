@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
+
+.presentation
+{
+	margin: auto;
+	text-align: center;
+	width: 20%;
+	border: 1px solid Black;
+}
+
+.contact
+{
+	margin: auto;
+	text-align: center;
+	width: 20%;
+	border: 1px solid Black;
+}
+
+.gossip_listing
+{
+	margin: auto;
+	text-align: center;
+	width: 40%;
+	border: 1px solid Black;
+}
