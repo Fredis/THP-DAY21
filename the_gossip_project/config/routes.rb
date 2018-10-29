@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
   get '/contact', to:'content#contact'
 
-  get '/welcome/:first_name', to: 'welcome_page#welcome'
+  get '/welcome/:first_name', to: 'welcome_page#welcome', as: 'welcome'
+
+  get '/gossips/:number', to: 'gossip_page#display_gossip', as: 'gossips'
 
 end

@@ -4,9 +4,10 @@
 
 <% @gossips.each do |gossip| %>
 
-	N° <%= gossip.id %> <%= gossip.author %>: <%= gossip.content %>
+	N° <%= gossip.id %> <%= gossip.author %>:  <%= link_to gossip.content, gossips_path(gossip.id) %>
 	 <br />
-	 <br />
+   <br />
+
 <% end %>
 
 </div>
